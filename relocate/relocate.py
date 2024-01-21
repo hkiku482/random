@@ -5,11 +5,11 @@ import pywinctl as pwc
 
 def printHelp():
   print("""relocate.py: Relocate a specified window.
-             Load relocate-conf.json file located same location as this file.
+             Load relocate-conf.json file located same directory as this file.
 Options
   help - Print this.
-  info - Display specified window info without relocate.
-  apps - Display all apps and windows titles.
+  info - Print specified window info without relocate.
+  apps - Print all apps and windows titles.
   conf - Print example config file.
           Run this to use it. 'python3 relocation.py conf > relocate-conf.json'""")
 
